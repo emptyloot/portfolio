@@ -24,3 +24,20 @@ export const projects = [
     github: "https://github.com/BC-CS481-Capstone/Workshop",
   }
 ];
+
+export const aboutData = {
+  bio: "My journey didn't start with code—it started with a multimeter. For over a decade, I worked as a Technical Operations Specialist, diagnosing complex hardware failures in mission-critical systems. This experience taught me that software doesn't exist in a vacuum; it lives on physical machines that break.",
+  bio2: "Now, as a Computer Science graduate (Magna Cum Laude), I leverage that operational mindset to build full-stack applications. I don't just write code that works; I write code that is testable, deployable, and easier to debug when things go wrong.",
+  education: {
+    degree: "Bachelor of Science in Computer Science",
+    school: "Bellevue College",
+    year: "June 2024",
+    honor: "Magna Cum Laude",
+  },
+  skills: [
+    "JavaScript / TypeScript", "React & Next.js", "AWS (EC2, S3, DynamoDB)", 
+    "Python", "Java / Kotlin", "CI/CD (GitHub Actions)", 
+    "Root Cause Analysis", "System Integration"
+  ]
+};
+
