@@ -41,3 +41,8 @@ export const aboutData = {
   ]
 };
 
+export const heroData = {
+  headline: "Bridging the Gap Between Physical Hardware & Software Logic",
+  subheadline: "Computer Science Graduate with 10+ years of technical operations experience. I combine deep root cause analysis with modern full-stack engineering to build resilient systems.",
+  location: "Bellevue, WA",
+};
