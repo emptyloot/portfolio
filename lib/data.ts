@@ -46,3 +46,24 @@ export const heroData = {
   subheadline: "Computer Science Graduate with 10+ years of technical operations experience. I combine deep root cause analysis with modern full-stack engineering to build resilient systems.",
   location: "Bellevue, WA",
 };
+
+export const diagnostics = [
+  {
+    title: "Process Architecture",
+    stat: "75% Reduction",
+    context: "in diagnostic turnaround",
+    detail: "Developed formal testing protocols at Practec LLC that slashed diagnostic times from 4 days to 1 day."
+  },
+  {
+    title: "Standardization",
+    stat: "Global SOP",
+    context: "adoption post-acquisition",
+    detail: "My diagnostic playbooks were adopted as the corporate Standard Operating Procedure (SOP) by Radwell International."
+  },
+  {
+    title: "Remote Diagnostics",
+    stat: "100% Uptime",
+    context: "for critical systems",
+    detail: "Served as primary escalation point for remote hardware triage, resolving safety-critical failures without site visits."
+  }
+]; 
