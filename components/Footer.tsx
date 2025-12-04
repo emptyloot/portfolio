@@ -5,6 +5,8 @@ export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-6">
+        
+
 
         {/* Social Links */}
         <div className="flex gap-6">
@@ -24,6 +26,12 @@ export default function Footer() {
             <Mail className="h-6 w-6" />
             <span className="sr-only">Email</span>
           </a>
+        </div>        
+        
+        <div className="text-center md:text-left">
+          <p className="text-xs text-slate-600 mt-2">
+            Visual assets generated via AI.
+          </p>
         </div>
 
       </div>
