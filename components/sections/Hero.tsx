@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image"; // <--- 1. Import this
-import { ArrowRight, Download, Eye, Terminal } from "lucide-react";
+import { ArrowRight, Eye, Terminal } from "lucide-react";
 import { heroData } from "@/lib/data";
 
 export default function Hero() {
