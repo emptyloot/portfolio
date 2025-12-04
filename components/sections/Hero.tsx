@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image"; // <--- 1. Import this
-import { ArrowRight, Download, Terminal } from "lucide-react";
+import { ArrowRight, Download, Eye, Terminal } from "lucide-react";
 import { heroData } from "@/lib/data";
 
 export default function Hero() {
@@ -53,12 +53,13 @@ export default function Hero() {
 
               <a
                 href="/David_Caldwell_Resume.pdf"
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center justify-center rounded-lg border border-white/20 bg-white/10 px-6 py-3 text-sm font-medium text-white shadow-sm backdrop-blur-sm transition-colors hover:bg-white/20"
               >
-                Download Resume
-                <Download className="ml-2 h-4 w-4" />
-              </a>
+                View Resume
+                <Eye className="ml-2 h-4 w-4" />
+              </a>  
             </div>
           </div>
 

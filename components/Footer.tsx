@@ -18,7 +18,13 @@ export default function Footer() {
             <FaLinkedin className="h-6 w-6" />
             <span className="sr-only">LinkedIn</span>
           </a>
-          <a href="/David_Caldwell_Resume.pdf" download className="hover:text-blue-400 transition-colors">
+          <a 
+            href="/David_Caldwell_Resume.pdf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            aria-label="View Resume"
+            className="..." // Your existing classes for the icon container
+          >
             <FileText className="h-6 w-6" />
             <span className="sr-only">Resume</span>
           </a>

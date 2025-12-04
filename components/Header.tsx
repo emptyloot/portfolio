@@ -1,3 +1,4 @@
+import { Eye } from "lucide-react";
 import Link from "next/link";
 
 export default function Header() {
@@ -38,10 +39,11 @@ export default function Header() {
           <div className="hidden md:block">
             <a 
               href="/David_Caldwell_Resume.pdf" 
-              download
+              target="_blank"
+              rel="noopener noreferrer"
               className="rounded-full bg-slate-900 px-4 py-2 text-sm font-medium text-white transition-colors hover:bg-slate-700"
             >
-              Resume
+              View Resume
             </a>
           </div>
 
