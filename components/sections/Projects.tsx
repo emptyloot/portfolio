@@ -1,11 +1,23 @@
-// src/components/sections/Projects.tsx
+import Image from "next/image";
 import { ExternalLink } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { projects } from "@/lib/data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="relative py-20 overflow-hidden">
+
+              <div className="absolute inset-0 -z-20">
+              <Image
+                src="/backgroundProjects.webp"
+                alt="Electronics workbench with code and oscilloscope generated with AI"
+                fill
+                className="object-cover"
+                quality={75}
+              />
+            </div>
+            <div className="absolute inset-0 -z-10 bg-slate-50/30" />
+
       <div className="container mx-auto px-4">
         
         {/* Section Header */}
