@@ -44,14 +44,6 @@ export const metadata: Metadata = {
     siteName: "David Caldwell Portfolio",
     title: "David Caldwell | Bridging Hardware & Software",
     description: "Solving complex infrastructure and robotics challenges with a hybrid background in code and hardware.",
-    images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "David Caldwell - Software Engineer",
-      },
-    ],
   },
   // 3. ICONS
   icons: {
