@@ -18,6 +18,7 @@ const geistMono = Geist_Mono({
 // 1. PROFESSIONAL METADATA
 // This controls how you appear in Google Search and LinkedIn previews.
 export const metadata: Metadata = {
+  metadataBase: new URL('https://caldwelldavid.com'),
   title: {
     default: "David Caldwell | Software Engineer & Technical Ops",
     template: "%s | David Caldwell", // Allows sub-pages to have titles like "Projects | David Caldwell"
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
     description: "Solving complex infrastructure and robotics challenges with a hybrid background in code and hardware.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/opengraph-image.jpg",
         width: 1200,
         height: 630,
         alt: "David Caldwell - Software Engineer",
