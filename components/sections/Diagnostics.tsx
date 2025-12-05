@@ -3,7 +3,7 @@ import { diagnostics } from "@/lib/data";
 
 export default function Diagnostics() {
   return (
-    <section id="diagnostics" className="bg-slate-950 py-24 text-slate-300 overflow-hidden relative">
+    <section id="diagnostics" className="min-h-screen bg-slate-950 py-24 text-slate-300 overflow-hidden relative">
       
       {/* Background Decor: Subtle Matrix/Grid effect */}
       <div className="absolute inset-0 opacity-[0.05]"

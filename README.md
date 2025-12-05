@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# David Caldwell - Portfolio
 
-## Getting Started
+![Status](https://img.shields.io/badge/Status-Active_Development-green) ![Tech](https://img.shields.io/badge/Built_With-Next.js_16-black)
 
-First, run the development server:
+A personal portfolio website showcasing the intersection of **hardware diagnostics**, **operational excellence**, and **full-stack software engineering**.
+
+This project serves as both a showcase of my work and a live demonstration of my frontend capabilities, featuring a modern, responsive design built with the **Next.js App Router**.
+
+## 🚀 The Mission
+To bridge the gap between physical hardware realities and software logic. This portfolio highlights my unique background:
+1.  **Software Engineering:** Full-stack development with React, AWS, and Python.
+2.  **Technical Operations:** 10+ years of root cause analysis, remote diagnostics, and standardized process architecture.
+
+## 🛠️ Tech Stack
+* **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+* **Core:** [React 19](https://react.dev/)
+* **Language:** [TypeScript](https://www.typescriptlang.org/) (Strict mode enabled)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+* **Animation:** Framer Motion
+* **Deployment:** Vercel (CI/CD)
+* **Icons:** Lucide React
+
+## 📂 Project Structure
+This project follows the modern Next.js 16 App Router architecture:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+portfolio/
+├── app/
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Navbar.tsx
+│   └── sections/
+│       ├── Hero.tsx
+│       └── Projects.tsx
+├── lib/
+│   └── data.ts
+├── public/
+├── package.json
+└── tsconfig.json
+````
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+  * Node.js 18.17 or later
+  * npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1.  Clone the repository:
+    ```bash
+    git clone git clone https://github.com/emptyloot/portfolio.git
+    ```
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
+4.  Open [http://localhost:3000](http://localhost:3000) with your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌟 Key Features (Planned)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  * **"Systems Diagnostics" Dashboard:** A specialized UI component visualizing operational achievements (Root Cause Analysis, SOP standardization) as system status logs.
+  * **Project Case Studies:** Deep dives into the *Númenor Freight Division* and *ReturnPal* projects.
+  * **Responsive Design:** Optimized for mobile, tablet, and desktop.
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The source code for this website is licensed under the MIT License. You are free to copy, modify, and use the code for your own projects.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+However, the content (including text, images, personal photos, and project data) is © David Caldwell. You may not use my personal photos or biography without explicit permission.
+
+-----
+
+*Built by David Caldwell, 2025.*
+
+---
+
+### Next Step
