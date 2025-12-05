@@ -2,35 +2,32 @@ export const projects = [
   {
     title: "Númenor Freight Division",
     role: "Full-Stack Developer",
-    tech: ["React", "Firebase", "Google Pub/Sub", "Discord API"],
-    // Removed "40%" stat until verified. Added "automatic retries" from resume [cite: 23]
-    description: "Architected a serverless logistics platform to manage freight operations. Key feature was a custom Discord bot powered by Google Pub/Sub with automatic retries and rate-limiting logic for reliable notifications. Implemented a robust CI/CD pipeline via GitHub Actions.",
+    tech: ["React", "Firebase", "Google Pub/Sub", "Discord API", "CI/CD"],
+    description: "Architected a serverless logistics platform using React and Firebase. Implemented a robust CI/CD pipeline via GitHub Actions for automated deployment. Key feature was a custom Discord bot powered by Google Pub/Sub with automatic retries for reliable notifications.",
     link: "https://numenor-freight-division.web.app/",
     github: "https://github.com/emptyloot/numenor-freight-division",
   },
   {
     title: "ReturnPal",
-    role: "Backend Architect",
-    // kept DynamoDB if that was the specific NoSQL used
-    tech: ["AWS EC2", "AWS S3", "DynamoDB", "CloudFormation", "Kotlin"],
-    description: "A native Android application for processing retail returns. My primary contribution was architecting the AWS backend infrastructure using CloudFormation (IaC). This allowed our team to spin up identical testing and production environments, ensuring repeatable automation.",
+    role: "Backend Architect & Team Lead",
+    tech: ["AWS EC2", "DynamoDB", "CloudFormation", "Kotlin", "Stripe API"],
+    description: "A full-stack Android application for retail returns. Co-architected the AWS backend (DynamoDB/IaC) and integrated the Stripe API to handle secure payment tokenization. Led the team's Agile process and built the CI/CD pipeline (AWS Amplify/GitHub Actions) for reliable deployment.",
     link: "",
     github: "https://github.com/BC-CS481-Capstone/ReturnPalsApp",
   },
   {
     title: "Android Dev Workshop",
-    role: "Curriculum Co-Author",
-    tech: ["Kotlin", "Jetpack Compose", "Technical Writing"],
-    // Adjusted to match "Capstone" context 
-    description: "Designed a comprehensive 'Zero to Hero' technical workshop. Authored documentation including environment setup guides and progressive code challenges. Built a 'golden standard' demo application to demonstrate modern mobile architecture.",
+    role: "Curriculum Lead & Co-Author",
+    tech: ["Kotlin", "Jetpack Compose", "Technical Enablement"],
+    description: "Designed and led a comprehensive 'Zero to Hero' technical workshop. Authored documentation including environment setup guides and progressive code challenges. Built a 'golden standard' demo application to demonstrate modern mobile architecture.",
     link: "",
     github: "https://github.com/BC-CS481-Capstone/Workshop",
   }
 ];
 
 export const aboutData = {
-  bio: "My journey didn't start with code—it started with a multimeter. For over a decade, I specialized in hardware diagnostics, helping industrial operators resolve complex failures in mission-critical systems. This experience taught me that software doesn't exist in a vacuum; it lives on physical machines that break.",
-  bio2: "Now, as a Computer Science graduate (Magna Cum Laude), I leverage that operational mindset to build full-stack applications. I don't just write code that works; I write code that is testable, deployable, and easier to debug when things go wrong.",
+  bio: "My journey didn't start with code—it started with a multimeter. For over a decade, I specialized in hardware diagnostics, helping industrial operators resolve complex failures in mission-critical systems. This taught me that software must be designed for reliability and process efficiency.",
+  bio2: "Now, as a Computer Science graduate (Magna Cum Laude), I leverage that operational mindset to build full-stack applications. I drive efficiency via DevOps and CI/CD, focusing on code that is testable, easily deployable, and fundamentally resilient.",
   education: {
     degree: "Bachelor of Science in Computer Science",
     school: "Bellevue College",
@@ -38,16 +35,15 @@ export const aboutData = {
     honor: "Magna Cum Laude",
   },
   skills: [
-    // Removed TypeScript/Next.js. Add back ONLY if you know them.
-    "JavaScript", "React", "AWS (EC2, S3, NoSQL)", 
-    "Python", "Java / Kotlin", "CI/CD (GitHub Actions)", 
-    "Root Cause Analysis", "System Integration"
+    "Python", "Java / Kotlin", "JavaScript / TypeScript", "React", 
+    "AWS (EC2, S3, DynamoDB)", "SQL / NoSQL", "CI/CD (GitHub Actions)", 
+    "Stripe API", "Root Cause Analysis", "Technical Mentorship"
   ]
 };
 
 export const heroData = {
-  headline: "Bridging the Gap Between Physical Hardware & Software Logic",
-  subheadline: "Computer Science Graduate with 10+ years of technical operations experience. I combine deep root cause analysis with modern full-stack engineering to build resilient systems.",
+  headline: "Driving Efficiency via DevOps and Operational Mastery",
+  subheadline: "CS Graduate with 10+ years technical tenure. I combine deep Root Cause Analysis with full-stack architecture to build resilient, standardized systems.",
   location: "Bellevue, WA",
 };
 
@@ -56,19 +52,18 @@ export const diagnostics = [
     title: "Process Architecture",
     stat: "75% Reduction",
     context: "in diagnostic turnaround",
-    detail: "Developed formal testing protocols at Practec LLC that slashed diagnostic turnaround time by 75%."
+    detail: "Engineered formal testing protocols at Practec LLC that directly reduced diagnostic turnaround time by 75% (Process Architecture/DevOps Mindset)."
   },
   {
-    title: "Standardization",
-    stat: "Global SOP",
-    context: "adoption post-acquisition",
-    detail: "My diagnostic playbooks were adopted as the corporate Standard Operating Procedure (SOP) by Radwell International."
+    title: "High-Efficiency Output",
+    stat: "Top Tier Ratios",
+    context: "despite part-time status",
+    detail: "Consistently achieved high repair-to-hour ratios, often outperforming full-time peers in efficiency and maximizing revenue generation."
   },
   {
-    title: "Remote Diagnostics",
-    // Changed "100% Uptime" to "Critical Support" to match resume "Critical remote diagnosis" 
-    stat: "Critical Support",
-    context: "for multisystem failures",
-    detail: "Served as primary escalation point for remote hardware triage, resolving safety-critical failures without site visits."
+    title: "Technical Mentorship",
+    stat: "Onboarding Lead",
+    context: "for new technicians",
+    detail: "Designed the formal onboarding curriculum (Practec) and provided ad-hoc coaching (Radwell) to accelerate new staff proficiency."
   }
 ];
