@@ -5,7 +5,7 @@ import { heroData } from "@/lib/data";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-[calc(100vh-4rem)] items-center justify-center overflow-hidden py-20">
+    <section className="min-h-screen flex flex-col justify-center py-20 relative">
       
       
       <div className="absolute inset-0 -z-20">

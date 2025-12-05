@@ -4,7 +4,7 @@ import { GraduationCap, Code2, Cpu } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="relative py-20 overflow-hidden">
+    <section id="about" className="min-h-screen flex flex-col justify-center py-20 relative">
         <div className="absolute inset-0 -z-20">
         <Image
           src="/backgroundAbout.webp"
@@ -20,11 +20,12 @@ export default function About() {
         <div className="flex flex-col gap-12 lg:flex-row lg:items-start">
           
           {/* Left Column: The Narrative */}
-          <div className="lg:w-2/3">
+          <div className="lg:w-2/3"> 
+            <div className="space-y-4 text-lg text-slate-600 leading-relaxed bg-white p-8 rounded-xl shadow-md">
             <h2 className="mb-6 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
               About Me
             </h2>
-            <div className="space-y-4 text-lg text-slate-600 leading-relaxed">
+           
               <p>{aboutData.bio}</p>
               <p>{aboutData.bio2}</p>
             </div>

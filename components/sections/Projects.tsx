@@ -5,7 +5,7 @@ import { projects } from "@/lib/data";
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative py-20 overflow-hidden">
+    <section id="projects" className="min-h-screen flex flex-col justify-center py-20 relative">
 
               <div className="absolute inset-0 -z-20">
               <Image
